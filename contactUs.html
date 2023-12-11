@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contactus.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"> <img id="brand" src="logo.png" alt="Logo"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+      aria-label="Expand Navigation"><span class="navbar-toggler-icon"></span></button>
+      
+      <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav">
+        <li class="nav-item" id="hm">
+        <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item" id="abt">
+        <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item" id="mem">
+        <a href="members.html" class="nav-link">Teams</a>
+        </li>
+        <li class="nav-item" id="proj">
+        <a href="projects.html" class="nav-link">Projects</a>
+        </li>
+      
+        <li class="nav-item" id="contact">
+        <a href="contactUs.html" class="nav-link active" aria-current="page">Contact Us</a>
+        </li>
+      
+      </ul>
+
+      </div>
+    </div>
+    
+    </nav>
+  </header>
+
+  <main class="contactsection">
+    <div id="particles-js"></div>
+
+    <h1>Get in Touch ! </h1>
+    <p>Contact us for more information</p>
+
+    <div class="contactIcons">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="contactinfo">
+        <div class="icon">
+        <i class="fas fa-envelope"></i>
+        </div>
+        <p id="mail"><a href="mailto:Safa.Otoum@zu.ac.ae" style="text-decoration: none;">Safa.Otoum@zu.ac.ae</a></p>
+      </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="contactinfo">
+        <div class="icon">
+        <i class="fas fa-phone"></i>
+        </div>
+        <p>+971 2 599 3846</p>
+      </div>
+
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="contactinfo">
+        <div class="icon">
+        <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <p><a href="https://maps.app.goo.gl/XMuC4ac78z193s6y7" style="text-decoration: none;">map</a></p>
+      </div>
+      </div>
+
+    </div>
+    
+    </div>
+
+    <div class="container-md">
+    <form novalidate >
+      <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="form-group" id="name">
+        <input type="text" id="name" class="form-control" placeholder="Your name..." required />
+        <label for="name" class="form-label"></label>
+        </div>
+
+        <div class="form-group" id="email">
+        <input type="email" id="email" class="form-control" placeholder="Your email.." required />
+        <label for="email"></label>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-12">
+        <div class="form-group" id="message" >
+        <textarea  id="message" class="form-control" placeholder="Your message..." required></textarea>
+        <label for="name" class="form-label"></label>
+        </div>  
+      </div>
+
+      </div>
+  
+
+      <div class="d-flex justify-content-center">
+      <button type="submit" class="cta-button" id="submit">Submit</button>
+      </div>
+      
+    </form>
+
+    </div>
+  
+  </main>
+
+  <footer>
+    <div class="footer-container">
+    <div class="row">
+    <div class="col-sm-12 text-sm text-center">
+      <p id="copyright">&copy; 2023 Sam AI Solutions. All Rights Reserved.</p>
+  
+    </div>
+  
+    </div>
+  
+  </footer>
+ 
+  <script src="script.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  
+
+</body>
+</html>

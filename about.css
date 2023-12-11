@@ -1,0 +1,207 @@
+
+#brand img {
+  width: 150px; 
+  height: 60px;
+} 
+
+h2 {
+  color: #423FE5;
+  padding: 30px;
+
+}
+
+#joinus hr{
+  color: #423FE5;
+}
+
+#joinus p {
+  padding-left: 30px;
+  font-size: 20px;
+  color: rgb(77, 77, 139);
+
+}
+
+#abttitle {
+  padding-top: 30px;
+}
+
+#animated-image{
+  padding-left: 30px;
+  margin-top: 110px;
+  max-width: 600px;
+  max-height: 350px;
+}
+
+#description-abt h2 {
+  padding-left: 0;
+  padding-bottom: 10px ;
+  margin-left: 15px;
+
+}
+
+
+#description-abt p{
+  font-size: 20px;
+  color: rgb(73, 73, 113);
+  padding: 20px;
+}
+
+#carousela {
+  margin-right: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+#carouselExampleIndicators {
+  display: 400px;
+}
+
+.carousel-item p {
+  font-size: 20px;
+  padding: 30px;
+
+}
+
+@media (max-width: 768px) {
+  .container-lab{
+  padding: 2px;
+  text-align: center;
+
+} 
+  .carousel-item {
+  overflow-y: auto;
+} }
+
+
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #carouselExampleIndicators {
+    height: 450px;
+  }
+  #animated-image {
+    margin-top: 10px;
+    padding: 0;
+  }
+}
+
+#whatwedo hr {
+  color: #423FE5;
+  margin: 30px
+}
+
+#whatwedo h2 {
+  color: #423FE5;
+  padding: 30px;
+}
+
+#whatwedo p {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(77, 77, 139)
+
+}
+
+#vision {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(77, 77, 139);
+
+}
+
+#cardicons {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.getintouch {
+  display: flex;
+  padding: 20px;
+  justify-content: left;
+}
+
+@media (max-width: 768px){
+  .getintouch{
+    justify-content: center;
+
+  }
+  
+}
+
+.image-container p {
+  padding: 0;
+  width: 0;
+  text-align: center;
+}
+
+#animated-image{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+.image-container {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+
+}
+
+img#animated-image {
+  max-width: none;
+  width: 100%;
+  transform: translateX(-100%);
+  animation: slideIn 2s ease-in forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+
+
+#team {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  width: 500px;
+  max-height: 400px;
+  padding-top: 50px;
+
+}
+
+img#team {
+  max-width: none;
+  width: 100%;
+  transform: translateX(100%);
+  animation: slideIn2 2s ease-in forwards;
+}
+
+@keyframes slideIn2 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: none;
+  }
+}

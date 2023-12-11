@@ -1,0 +1,94 @@
+.contactsection {
+ background: rgba(140, 223, 207, 0.2);
+}
+
+h1 {
+ padding: 50px 0 10px 0;
+ text-align: center;
+}
+
+p {
+ text-align: center; 
+ font-size: large; 
+ color: rgb(123, 122, 122);
+}
+
+icon i{
+ padding: 20px 30px 10px 10px;
+}
+.contactIcons{
+ text-align: center;
+ font-size: 50px;
+ padding-bottom: 30px;
+
+}
+
+.form-group {
+ margin:10px;
+ z-index: 2;
+ display: flex;
+ align-items: start;
+ justify-content: left;
+ text-align: left;
+}
+
+.form-group label {
+ width: 30%;
+ margin-right: 10px;
+ background-color: white;
+}
+
+#name {
+ margin: 10px 0 0 20px;
+}
+
+#email{
+ margin: 10px 0 0 20px;
+}
+
+#message{
+ margin: 10px 0 0 50px;
+ height: 100px;
+}
+
+.message-group {
+ display: flex;
+}
+
+#mail p{
+ text-decoration: none;
+}
+
+.message-group textarea {
+ flex: 1;
+ margin-left: 40px;
+}
+
+#submit{
+ margin: 40px;
+ border: none;
+}
+
+#particles-js {
+ position: absolute;
+ width: 100%;
+ height: 80%;
+ z-index: -1;
+ background-size: cover;
+ background-position: 50% 50%;
+ background-repeat: no-repeat;
+}
+
+#copyright{
+ font-size: 15px;
+ color: white;
+}
+
+@media (max-width: 768px) {
+ #particles-js {
+  display: none;
+ }
+ #message {
+  margin: 10px 0 0 20px;
+ }
+}

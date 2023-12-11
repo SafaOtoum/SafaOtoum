@@ -1,0 +1,92 @@
+main {
+  background-color: rgba(72, 158, 233, 0.2);
+}
+
+h1 {
+  padding: 40px 0 30px 0;
+  text-align: center;
+}
+
+#subtitle {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(66, 63, 229, 0.8);
+  text-shadow: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+
+}
+
+#subtitle2 {
+  font-size: 25px;
+  text-align: center;
+  color: black;  
+}
+
+.row {
+ display: flex;
+ justify-content: center;
+}
+
+.card {
+ box-shadow: 200 4px 8px rgba(28, 25, 25, 0.1)px;
+ border-radius: 100px;
+ height: 420px;
+ width: 250px;
+ border: 3px solid black;
+ flex-direction: column;
+ transition: transform 0.6s ease-in-out, background-color 0.5s ease-in-out, font-size 0.3s ease-in-out, color 0.3s;
+}
+
+.card:hover {
+ color:white;
+ font-size: larger;
+ transform: translateY(-5px);
+ background-color:rgb(220, 175, 160);
+}
+
+.card img {
+  margin-top: 5px;
+  background-color:transparent;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80%;
+  padding: 5px 10px 0 10px;
+  height: 70%;
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .card img {
+    object-fit: cover;
+  }
+}
+
+#directors {
+  margin: 20px;
+  align-content: center;
+  transition: transform 0.6s ease-in-out,
+  background-color 0.5s ease-in-out,
+  font-size 0.3s ease-in-out,
+  color 0.3s;
+
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height:fit-content;
+  z-index: -1;
+
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  #particles-js {
+    display: none;
+  }
+}
+
